@@ -57,41 +57,41 @@ grafana:
   release_hash: sha256=4d3153966afed9b874a6fa6182914d9bd2e69698bbc7c13248d1b7ef09d3d328
 
 gobblin:
-  release_version: develop
+  release_version: 0.1.0
 
 console_frontend:
-  release_version: develop
+  release_version: 0.1.0
 
 console_backend_data_logger:
-  release_version: develop
+  release_version: 0.1.0
   bind_port: 3001
 
 console_backend_data_manager:
-  release_version: develop
+  release_version: 0.1.0
   bind_port: 3123
 
 deployment_manager:
-  release_version: develop
+  release_version: 0.1.0
 
 package_repository:
-  release_version: develop
+  release_version: 0.1.0
 
 data-service:
-  release_version: develop
+  release_version: 0.1.0
 
 hdfs_cleaner:
-  release_version: develop
+  release_version: 0.1.0
 
 platform_testing:
   release_directory: /opt/pnda
-  release_version: develop
+  release_version: 0.1.0
 
 ntp:
   servers:
     - "ntp.esl.cisco.com iburst"
 
 platformlib:
-  release_version: develop
+  release_version: 0.1.0
   target_directory: "/opt/pnda"
 
 nginx:
